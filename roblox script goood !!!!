@@ -14972,8 +14972,8 @@ function potatokick(cplr, player) -- v, V.Name [cmd pi]
 	while backend_stuff.pkickrn do task.wait() end
 
 	backend_stuff.pkickrn = true
-	Chat("size " .. player .. " -nan")
-	Chat("noclip " .. player)
+	Chat("freeze " .. player)
+	Chat("size " .. player .. " nan")
 	Chat("skydive " .. player)
 	for i = 1, 3 do
 		Chat("gear me 25741198")
